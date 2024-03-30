@@ -1,0 +1,45 @@
+<header class="w3-container w3-teal">
+<h1>Your Website</h1>
+</header>
+
+<nav class="w3-bar w3-black">
+<a href="#" class="w3-bar-item w3-button">Home</a>
+<a href="#" class="w3-bar-item w3-button">About</a>
+<a href="#" class="w3-bar-item w3-button">Contact</a>
+</nav>
+<main class="w3-container">
+<!-- Main content goes here -->
+</main>
+<footer class="w3-container w3-teal">
+&copy; 2024 Your Website. All rights reserved.
+</footer>
+Responsive Design and Grid System (45 minutes):
+• Implement W3.CSS grid system for responsive layout.
+• Create a simple responsive grid for content.
+<main class="w3-container">
+<div class="w3-row">
+<div class="w3-col m4">
+<!-- Content for the first column -->
+</div>
+<div class="w3-col m4">
+<!-- Content for the second column -->
+</div>
+<div class="w3-col m4">
+<!-- Content for the third column -->
+</div>
+</div>
+</main>
+Enhancing Interactivity:
+• Integrate simple JavaScript for interactivity.
+
+• Add features like image sliders, dropdowns, or forms.
+<script>
+function toggleMenu() {
+document.getElementById("myNav").classList.toggle("w3-show");
+}
+</script>
+
+<button onclick="toggleMenu()" class="w3-button w3-black">Toggle Menu</button>
+<div id="myNav" class="w3-overlay w3-hide">
+<!-- Content for the overlay menu -->
+</div>

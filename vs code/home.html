@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="w3.css">
+
+<title>DRIN's WATER STATION</title>
+</head>
+<body>
+<!-- Content goes here -->
+</body>
+</html>
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style> 
+        header {
+        background-color: lightblue;
+        background-image: url(https://images.pexels.com/photos/1147124/pexels-photo-1147124.jpeg?cs=srgb&dl=pexels-matthias-cooper-1147124.jpg&fm=jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+ 
+    }
+        body{
+        background-color:lightblue;
+
+    }
+        .w3-col img {
+        width: 70%;
+        height: auto;
+    }
+        footer {
+        background-color: teal;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 0; /* Position the footer at the bottom */
+        width: 100%; /* Full width */
+  }
+    </style>
+  </head>
+  <body>
+  
+  <header class="w3-container w3-teal">
+    <h1>DRIN's WATER STATION</h1>
+  </header>
+  <nav class="w3-bar w3-black">
+    <a href="home.html" class="w3-bar-item w3-button">Home</a>
+    <div class="w3-dropdown-hover">
+        <button class="w3-button">About Us &#9660;</button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <a href="about.html" class="w3-bar-item w3-button">About Us</a>
+          <a href="team.html" class="w3-bar-item w3-button">Our Team</a>
+          <a href="mission.html" class="w3-bar-item w3-button">Our Mission</a>
+        </div>
+      </div>
+    <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
+    <div class="w3-dropdown-hover">
+      <button class="w3-button">Services &#9660;</button>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="services.html" class="w3-bar-item w3-button">Our Services</a>
+        <a href="pricing.html" class="w3-bar-item w3-button">Pricing</a>
+        <a href="faq.html" class="w3-bar-item w3-button">FAQ</a>
+      </div>
+
+  <a href="https://www.instagram.com/drnblnd_/?hl=en" class="w3-bar-item w3-button" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" alt="Instagram" style="width: 30px; height: 30px;">
+  </a>
+
+  <a href="https://www.facebook.com/bulanadialdrin/" class="w3-bar-item w3-button" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Facebook_icon.svg/2048px-Facebook_icon.svg.png" alt="Facebook" style="width: 30px; height: 30px;">
+  </a>
+  </nav>
+  
+  <main class="w3-container">
+    <h2>STAY HYDRATED!</h2>
+    <p>This is the home page content.</p>
+    
+    <div class="w3-row">
+      <div class="w3-col m4">
+        <img src="https://i.pinimg.com/originals/2d/46/7a/2d467a4a5bf9dc6e2d0b3fada48490f2.jpg" alt="Description of the first image">
+      </div>
+      <div class="w3-col m4">
+        <img src="https://i.pinimg.com/736x/e3/11/7d/e3117dd3dfa53cf4288ede001c3cf186.jpg" alt="Description of the first image">
+      </div>
+      <div class="w3-col m4">
+        <img src="https://www.franchisemarket.ph/application/files/2415/8213/3980/crystal-clear-machines.jpg" alt="Description of the first image">
+      </div>
+    </div>
+  </main>
+  <!-- Form -->
+<div class="w3-container"
+<h2>Dropdown Menu</h2>
+<div class="w3-dropdown-click">
+    <button onclick="toggleDropdown()" class="w3-button w3-teal">Select an Option</button>
+    <div id="dropdownMenu" class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">Option 1</a>
+        <a href="#" class="w3-bar-item w3-button">Option 2</a>
+        <a href="#" class="w3-bar-item w3-button">Option 3</a>
+    </div>>
+  <h3>ORDER NOW</h3>
+  <form id="contactForm" class="w3-container">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="address">Address:</label>
+      <input type="address" id="address" name="address" required>
+      <label for="number">Contact Number#:</label>
+      <input type="number" id="number" name="number" required>
+      <button type="submit" class="w3-button w3-teal">Submit</button>
+  </form>
+  <footer class="w3-container w3-teal">
+    &copy; 2024 Your Website. All rights reserved.
+  </footer>
+  
+  <script>
+
+function toggleDropdown() {
+        var dropdownMenu = document.getElementById("dropdownMenu");
+        dropdownMenu.style.display = dropdownMenu.style.display === "block" ? "none" : "block";
+    }
+
+    function toggleMenu() {
+      document.getElementById("myNav").classList.toggle("w3-show");
+    }
+  </script>
+  
+
+  </div>
+  
+  </body>
+  </html>

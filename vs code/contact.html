@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="style.css">
+<title>DRIN's WATER STATION - Contact</title>
+<style> 
+  header {
+    background-color: lightblue;
+    background-image: url(https://images.pexels.com/photos/1147124/pexels-photo-1147124.jpeg?cs=srgb&dl=pexels-matthias-cooper-1147124.jpg&fm=jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  body {
+    background-image:url(https://cdn1.vectorstock.com/i/1000x1000/05/10/logo-for-drinking-water-vector-22590510.jpg.jpg) ;
+    background-color: lightblue;
+  }
+
+  .w3-col img {
+    width: 70%;
+    height: auto;
+  }
+
+  footer {
+    background-color: teal;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  /* Center the form */
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  /* Adjust the form layout */
+  form {
+    max-width: 400px; /* Adjust as needed */
+    text-align: center;
+  }
+
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="tel"],
+  form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+
+  form button {
+    width: 100%;
+    padding: 10px;
+  }
+</style>
+</head>
+<body>
+
+<header class="w3-container w3-teal">
+  <h1>DRIN's WATER STATION</h1>
+</header>
+
+<nav class="w3-bar w3-black">
+  <a href="home.html" class="w3-bar-item w3-button">Home</a>
+  <div class="w3-dropdown-hover">
+    <button class="w3-button">About Us &#9660;</button>
+    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+      <a href="about.html" class="w3-bar-item w3-button">About Us</a>
+      <a href="team.html" class="w3-bar-item w3-button">Our Team</a>
+      <a href="mission.html" class="w3-bar-item w3-button">Our Mission</a>
+    </div>
+  </div>
+  <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
+  <div class="w3-dropdown-hover">
+    <button class="w3-button">Services &#9660;</button>
+    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+      <a href="services.html" class="w3-bar-item w3-button">Our Services</a>
+      <a href="pricing.html" class="w3-bar-item w3-button">Pricing</a>
+      <a href="faq.html" class="w3-bar-item w3-button">FAQ</a>
+    </div>
+  
+  <a href="https://www.instagram.com/drnblnd_/?hl=en" class="w3-bar-item w3-button" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" alt="Instagram" style="width: 30px; height: 30px;">
+  </a>
+
+  <a href="https://www.facebook.com/bulanadialdrin/" class="w3-bar-item w3-button" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Facebook_icon.svg/2048px-Facebook_icon.svg.png" alt="Facebook" style="width: 30px; height: 30px;">
+  </a>
+</nav>
+
+<main>
+  <form id="contactForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="address">Address:</label>
+    <input type="text" id="address" name="address" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="number">Contact Number:</label>
+    <input type="tel" id="number" name="number" required>
+
+    <label for="inquiry">Inquiry:</label>
+    <textarea id="inquiry" name="inquiry" rows="4" required></textarea>
+
+    <button type="submit" class="w3-button w3-teal">Submit</button>
+  </form>
+</main>
+
+<footer class="w3-container w3-teal">
+  &copy; 2024 Your Website. All rights reserved.
+</footer>
+
+</body>
+</html>
